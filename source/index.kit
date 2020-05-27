@@ -3,6 +3,7 @@
 	<head>
 		<title>Jetro</title>
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="icon" href="favicon.ico">
 		<link rel="stylesheet" href="fontawesome/all.min.css">
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 			<!-- Подключаем jQuery -->
@@ -18,7 +19,7 @@
 			<a class="logo" href="#">JET<span>RO</span></a>
 			<nav>
 				<ul>
-					<li><a href="#" target="blanck">HOME</a></li>
+					<li><a class="active" href="#" target="blanck">HOME</a></li>
 					<li><a href="#" target="blanck">ABOUT US</a></li>
 					<li><a href="#" target="blanck">BLOG</a></li>
 					<li><a href="#" target="blanck">PORTFOLIO</a></li>
@@ -84,44 +85,43 @@
 						<a class="btn" href="#" target="blanck">MORE</a>
 					</div>
 				</div>
-				<div id="recent-works">
-					<h1>RECENT   WORKS</h1>
+				<div class="recent-works">
+					<h1 class="works"><span>RECENT   WORKS</span></h1>
 					<div class="posts">
 						<div class="post">
 							<a href="#">
 								<img src="img/works-1.png">
-								<div class="caption">
-									<h2>CHARACTER DESIGN</h2>
-									<h3>JUNE 15, 2012</h3>
-								</div>
-							</a>
+							<div class="caption">
+									<h2><a href="#">CHARACTER DESIGN</a></h2>
+								<h3>JUNE 15, 2012</h3>
+							</div>
 						</div>
 						<div class="post">
 							<a href="#">
 								<img src="img/works-2.png">
-								<div class="caption">
-									<h2>BRUSHER DESIGN</h2>
-									<h3>JUNE 15, 2012</h3>
-								</div>
 							</a>
+							<div class="caption">
+									<h2><a href="#">BRUSHER DESIGN</a></h2>
+								<h3>JUNE 15, 2012</h3>
+							</div>
 						</div>
 						<div class="post">
-							<a href="#">
-								<img src="img/works-3.png">
-								<div class="caption">
-									<h2>SOCIAL MEDIA BUTTONS</h2>
-									<h3>JUNE 15, 2012</h3>
-								</div>
-							</a>
+								<a href="#">
+									<img src="img/works-3.png">
+								</a>
+							<div class="caption">
+									<h2><a href="#">SOCIAL MEDIA BUTTONS</a></h2>
+								<h3>JUNE 15, 2012</h3>
+							</div>
 						</div>
 						<div class="post">
 							<a href="#">
 								<img src="img/works-4.png">
-								<div class="caption">
-									<h2>10 AMAZING WEBSITES</h2>
-									<h3>JUNE 15, 2012</h3>
-								</div>
 							</a>
+							<div class="caption">
+									<h2><a href="#">10 AMAZING WEBSITES</a></h2>
+								<h3>JUNE 15, 2012</h3>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -130,27 +130,30 @@
 		<div id="pageright-Ads">Ads-right</div>
 		<footer id="pageFooter">
 			<div class="footer about">
-				<h1>ABOUT JETRO</h1>
-				<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.</p>
-				<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
-			</div>
-			<div class="footer twitter">
-				<h1>TWITTER WIDGET</h1>
-				<p><span>&#64 pixelmater </span>What an awesome design<br>
-					with great functionality ;)<br><br>
-					<span>about 1 hour ago</span><br><br>
-					<span>&#64 designdude </span>What an awesomre design<br>
-					with great functionality ;)<br><br>
-					Folow<span>&#64 bestpsdfreebies</span>
-				</p>
-			</div>
-			<div class="footer contact">
-				<h1>CONTACN US</h1>
-				<p>Lorem ipsum dolor sit amet, malorum recteque<br>
-					reprehenduntua vel. Urbanitas adolescens vim te, per at tritani aperiri.<br><br>
-					information&#64jetro.com<br><br>
-					1.22.333.4444
-				</p>
+				<h1>About Jetro</h1>
+							<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.</p>
+							<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
+						</div>
+						<div class="footer widget">
+							<h1>Twitter widget</h1>
+							<p>
+								<a href="#">@pixelmater</a>
+								What an awesome design with great functionality :)
+								<br><span>about 1 hour ago</span>
+							</p>
+							<p>
+								<a href="#">@designdude</a>
+								What an awesome design with great functionality :)
+								<br><span>about 2 hour ago</span>
+							</p>
+							<p>Follow <a href="#">@bestpsdfreebies</a>
+							</p>
+						</div>
+						<div class="footer contact">
+							<h1>Contact us</h1>
+							<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
+							<p><a href="mailto:information@jetro.com">information@jetro.com</a>
+							<br><a href="callto:1.222.333.4444">1.222.333.4444</a></p>
 				<div class="icon">
 					<a href="#">
 						<img src="img/soc_seti/facebook.png" alt="facebook">

@@ -7,7 +7,7 @@ body{
 	"left-Ads main right-Ads"
 	"left-Ads footer right-Ads";
 	grid-template-rows: 80px 1fr auto;
-	grid-template-columns: 16% 1fr 16%;
+	grid-template-columns: 10% 1fr 10%;
 	grid-gap: 10px;
 	margin: 0;
 	background-color: #fefefe;
@@ -50,6 +50,9 @@ nav{
 				font-family: bebas;
 				font-size: 22px;
 				color: #b9b9b9;
+				&:hover{
+					color: #000;
+				}
 			}
 		}
 	}
@@ -166,6 +169,21 @@ h1{
 		padding-left: 70px;
 	}
 }
+
+.recent-works{
+	margin-top: 27px;
+	padding: 0 0 40px;
+	h1{
+		line-height: 22px;
+		margin: 0 0 20px;
+		background: url(../img/works-back.png) 0 0 repeat-x;
+		span{
+			background: #FFF;
+			display: inline-block;
+			padding-right: 20px;
+		}
+	}
+}
 .btn{
 	display: inline-block;
 	background-color: #e8663c;
@@ -175,13 +193,14 @@ h1{
 	line-height: 20px;
 	margin-top: 20px;
 	padding: 5px 13px;
+	&:hover{
+		background-color: #e8663c;
+		opacity: 0.5;
+	}
 }
 .func{
 	position: relative;
 	margin-right: 36px;
-}
-#recent-works{
-	margin-top: 27px;
 }
 .posts{
 	display: grid;
@@ -197,9 +216,14 @@ h1{
 	padding-top: 12px;
 	padding-bottom: 8px;
 	h2{
-		color: #dbdbdb;
 		font-family: bebas;
 		font-size: 20px;
+		a{
+			color: #dbdbdb;
+			&:hover{
+			color: #e8663c;
+			}
+		}
 	}
 	h3{
 		color: #e8663c;
@@ -217,12 +241,26 @@ footer{
 	h1{
 		font-size: 27px;
 		color: #ffffff;
+		margin-bottom: 20px;
 	}
 	p{
 		font-family: helvetica;
 		font-size: 12px;
-		margin-top: 24px;
+		margin-top: 10px;
 		line-height: 14px;
+		span{
+			color: #ffffff;
+			opacity: 0.5;
+			line-height: 40px;
+		}
+	}
+	a{
+		color: #ffffff;
+		opacity: 0.5;
+		&:hover{
+			color: #ffffff;
+			opacity: 1;
+		}
 	}
 }
 .footer{
@@ -235,6 +273,7 @@ footer{
 .icon{
 	margin-top: 10px;
 	a{
-		padding-left: 10px;
+		padding-left: 5px;
+		opacity: 1;
 	}
 }
