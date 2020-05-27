@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'bebas';
+	src: url('../fonts/bebas_neue_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/bebas_neue_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/bebas_neue_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/bebas_neue_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/bebas_neue_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/bebas_neue_bold.svg#bebas_neue_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}@font-face {
+	font-family: 'helvetica';
+	src: url('../fonts/helveticaneuecyr-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/helveticaneuecyr-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/helveticaneuecyr-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/helveticaneuecyr-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/helveticaneuecyr-medium.svg#helveticaneuecyr-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
