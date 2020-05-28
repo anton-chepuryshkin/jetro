@@ -2,14 +2,33 @@ $(document).ready(function(){
 	$('.slider').slick({
 		arrows:false,
 		adaptiveHeight:true,
-		slidesToShow:6,
+		slidesToShow:5,
 		slidesToScroll:1,
+		asNavFor:".sliderbig",
+		focusOnSelect: true,
+		centerMode:true,
+		responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow:4,
+				}
+			},{
+				breakpoint: 480,
+				settings: {
+					slidesToShow:3,
+				}
+			}
+		]
 	});
 	$('.sliderbig').slick({
 		arrows:true,
-		fade:true,
-		speed:1000,
+		fade:false,
+		speed:2000,
 		autoplay:true,
-		autoplaySpeed:3000,
+		autoplaySpeed:4000,
+		centerMode:false,
+		variableWidht:true,
+		asNavFor:".slider",
 	});
 });
