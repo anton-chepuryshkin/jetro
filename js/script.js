@@ -5,8 +5,8 @@ $(document).ready(function(){
 		slidesToShow:5,
 		slidesToScroll:1,
 		asNavFor:".sliderbig",
-		focusOnSelect: true,
-		centerMode:true,
+		focusOnSelect:true,
+		centerMode:false,
 		responsive:[
 			{
 				breakpoint: 768,
