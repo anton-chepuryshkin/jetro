@@ -23,7 +23,7 @@ nav, footer, header, aside {
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   font-size: 100%;
   line-height: 1;
@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   background: #fefefe;
+  position: relative;
 }
 body::before {
   content: "";
@@ -95,6 +96,15 @@ body::before {
   height: 60px;
   background: #f3af9d;
   width: 100%;
+}
+body::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background: #f3af9d;
+  width: 100%;
+  z-index: -1;
 }
 body .back {
   width: 100%;

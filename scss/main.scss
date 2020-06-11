@@ -2,6 +2,7 @@
 @import "fonts";
 body{
 	background: #fefefe;
+	position: relative;
 		&::before{
 			content: "";
 			position: absolute;
@@ -10,15 +11,15 @@ body{
 			background: #f3af9d;
 			width: 100%;
 		}
-		// &::after{
-		// 	content: "";
-		// 	position: absolute;
-		// 	bottom: 0;
-		// 	height: 100px;
-		// 	background: #f3af9d;
-		// 	width: 100%;
-		// 	z-index: -1;
-		// }
+		&::after{
+			content: "";
+			position: absolute;
+			bottom: 0;
+			height: 60px;
+			background: #f3af9d;
+			width: 100%;
+			z-index: -1;
+		}
 		.back{
 			width: 100%;
 			bottom: 0;
